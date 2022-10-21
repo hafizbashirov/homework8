@@ -1,0 +1,73 @@
+div{
+    width: 700px;
+    height: 600px;
+    display: flex;
+    float: left;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.span2{
+    width: 225px;
+    height: 225px;
+    background-color: blueviolet;
+    display: flex;
+    position: relative;
+    top: 100px;
+    transform: rotate(0deg);
+    overflow: hidden;
+  
+}
+.span3{
+    width: 250px;
+    height: 204px;
+    background-color: rgb(43, 211, 226);
+    display: flex;
+    position: absolute;
+    transform: rotate(24deg);
+    bottom: -100px;
+    left: -20px;
+}
+.circle{
+    width: 70px;
+    height: 70px;
+    background: rgb(203, 26, 94);
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    bottom: 97px;
+    left: 298px;
+}
+.span1{
+    width: 225px;
+    height: 225px;
+    background: rgb(49, 226, 43);
+    display: flex;
+    position: relative;
+    top: 100px;
+    transform: rotate(0deg);
+    overflow: hidden;
+    left: -30px;
+}
+.circle2{
+    width: 70px;
+    height: 70px;
+    background: rgb(44, 26, 203);
+    display: flex;
+    position: absolute;
+    border-radius: 50%;
+    right: -35px;
+    top: 15px;
+}
+.circle3{
+    width: 70px;
+    height: 70px;
+    background: rgb(203, 191, 26);
+    display: flex;
+    position: absolute;
+    border-radius: 50%;
+    left: -35px;
+    top: 15px;
+}
